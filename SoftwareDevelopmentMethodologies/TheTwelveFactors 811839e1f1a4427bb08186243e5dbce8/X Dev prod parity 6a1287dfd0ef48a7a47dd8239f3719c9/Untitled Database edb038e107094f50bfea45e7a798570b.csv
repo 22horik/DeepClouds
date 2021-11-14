@@ -1,0 +1,4 @@
+﻿Type,Language,Library,Adapters
+Database,Ruby/Rails,ActiveRecord,"MySQL, PostgreSQL, SQLite"
+Queue,Python/Django,Celery,"RabbitMQ, Beanstalkd, Redis"
+Cache,Ruby/Rails,ActiveSupport::Cache,"Memory, filesystem, Memcached"
