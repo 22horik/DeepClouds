@@ -6,7 +6,7 @@ A [codebase](I%20Codebase%202b059202958543419888e3e678b44fc5.md) is transformed
 
 - The *build stage* is a transform which converts a code repo into an executable bundle known as a *build*. Using a version of the code at a commit specified by the deployment process, the build stage fetches vendors [dependencies](II%20Dependencies%2051ed07fe144d4619b2597e06ca3bf96e.md) and compiles binaries and assets.
 - The *release stage* takes the build produced by the build stage and combines it with the deploy’s current [config](III%20Config%205b5606111aee443b801e040561320667.md). The resulting *release* contains both the build and the config and is ready for immediate execution in the execution environment.
-- The *run stage* (also known as “runtime”) runs the app in the execution environment, by launching some set of the app’s [processes](https://12factor.net/processes) against a selected release.
+- The *run stage* (also known as “runtime”) runs the app in the execution environment, by launching some set of the app’s [processes](VI%20Processes%20b60f1b06f8364a1388aa44f32f417c5e.md) against a selected release.
 
 ![release-2.png](V%20Build,%20release,%20run%209636ae65a02c4cb6b4450bb8fdf61471/release-2.png)
 

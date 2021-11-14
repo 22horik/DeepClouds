@@ -1,0 +1,4 @@
+﻿Property,Traditional app,Twelve-factor app
+Time between deploys,Weeks,Hours
+Code authors vs code deployers,Different people,Same people
+Dev vs production environments,Divergent,As similar as possible

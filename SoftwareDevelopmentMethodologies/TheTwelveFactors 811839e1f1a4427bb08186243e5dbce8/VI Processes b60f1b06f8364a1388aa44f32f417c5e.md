@@ -4,7 +4,7 @@
 
 The app is executed in the execution environment as one or more *processes*.
 
-In the simplest case, the code is a stand-alone script, the execution environment is a developer’s local laptop with an installed language runtime, and the process is launched via the command line (for example, `python my_script.py`). On the other end of the spectrum, a production deploy of a sophisticated app may use many [process types, instantiated into zero or more running processes](https://12factor.net/concurrency).
+In the simplest case, the code is a stand-alone script, the execution environment is a developer’s local laptop with an installed language runtime, and the process is launched via the command line (for example, `python my_script.py`). On the other end of the spectrum, a production deploy of a sophisticated app may use many [process types, instantiated into zero or more running processes](VIII%20Concurrency%203d5f5d0b9428459b8927bf261b93db25.md).
 
 **Twelve-factor processes are stateless and [share-nothing](http://en.wikipedia.org/wiki/Shared_nothing_architecture).** Any data that needs to persist must be stored in a stateful [backing service](IV%20Backing%20services%201c1e72b649f649babc444f5cb9834892.md), typically a database.
 
